@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Events + Intl</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Custom Events + Intl</h1>
+      <hr />
+      <br />
+
+      <div>
+        <button id="timestamp-button">Dispatch Timestamp Event</button>
+        <b>Timestamp:</b>
+        <span id="timestamp-value"></span>
+      </div>
+      <br />
+
+      <div>
+        <button id="date-button">Dispatch Date Event</button>
+        <b>Date:</b>
+        <span id="date-value"></span>
+      </div>
+      <br />
+
+      <div>
+        <button id="custom-button">Dispatch Custom Event With Some Data</button>
+        <b>Custom:</b>
+        <span id="custom-value"></span>
+      </div>
+      <br />
+
+      <div>
+        <button id="notify-button">Dispatch Notify Event</button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/app.ts"></script>
+  </body>
+</html>
